@@ -2,7 +2,7 @@ vim.g.base46_cache = vim.fn.stdpath "data" .. "/nvchad/base46/"
 vim.g.mapleader = " "
 vim.wo.number = true
 vim.wo.relativenumber = true
-vim.opt.backupdir = "~/.cache/vim/"
+vim.opt.backupdir = "/home/necroromnt/.cache/vim/"
 -- bootstrap lazy and all plugins
 local lazypath = vim.fn.stdpath "data" .. "/lazy/lazy.nvim"
 
